@@ -1,0 +1,83 @@
+body{
+    background:white;
+    font-family:"Microsoft JhengHei";
+    margin: auto;
+    margin-top: 200px;
+    padding: 5px;
+}
+
+body>table{
+    border:2px solid;
+    text-align: center;
+    border-color:black;
+    text-align: center;
+    display: inline block;
+}
+
+table>tr{
+    height: 10%;
+}
+
+tr>th{
+    text-align: left;
+    border-width: 0px;
+}
+
+th>img{
+    width: 150px;
+}
+
+th>td{
+    text-align: right;
+    border-width: 0;
+
+}
+
+nav a {
+    color:chocolate;
+    text-decoration: none; 
+    font-size: 1.2rem;
+}
+
+nav > ul {
+    list-style: none; 
+    
+}
+
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+ul>li{
+    display: inline;
+}
+
+td{
+    text-align: right;
+    border-width: 0;
+}
+
+th{
+    border-width: 0;
+}
+
+hr{
+    background-color: salmon;
+     height: 5px;
+     border-color: white;
+}
+
+form>input{
+    font-size: 10px;
+}
+
+tr>th>input{
+    float: right;
+     width: 50px;
+      height: 25px;
+       background-color: orange;
+       font-size: 10%;
+       border:gold;
+       color:black;
+}

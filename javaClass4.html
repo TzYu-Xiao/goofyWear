@@ -2,39 +2,45 @@
 <html>
     <head>
         <title>Goofy's wear</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="javaClass4.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </head>
-    <body background="white";font-family="Microsoft JhengHei">
-    <h1><center>Goofy's wear</center></h1>
+    <body>
 
-    <table border='5' width=70% align="center" style="border-color: black;"> 
+    <table align="center"> 
 
-        <tr height=20%>
-            <th align="left" style="border-width: 0;"><img src="logo.jpg" width=300>
-                <td align="right" style="border-width: 0;">
-                    <input type="button" value="登入" onclick="location.href='javaClass3.html'"
-                    style="width: 50px; height: 25px; background-color: orange;font-size: 10%;border:gold;color:black;">
+        <tr>
+            <th align="left" ><img src="logo.jpg">
+                <td align="right">
+                    <nav>
+                        <ul>
+                            <li><a href="javaClass3.html">登入</a></li>
+                        </ul>
+                    </nav>
                 </td>
-             
+        
             </th>
         </tr>
         
         <tr>
-              
-            <th colspan="2" style="border-width: 0;">
+            <th colspan="2">
                  
-            <hr noshade="" style="background-color: salmon; height: 5px;border-color: white;">
+            <hr noshade="">
         
                 <form action="" method="GET">
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp輸入帳號：<input type="text" name="account"><br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp輸入密碼：<input type="password" name="password"><br>
-                    輸入電子郵件：<input type="text" name="email">
+                    <h>輸入帳號：<input type="text" name="account"><br></h>
+                    <h>輸入密碼：<input type="password" name="password"><br></h>
+                    <h>輸入電子郵件：<input type="text" name="email" id="B"></h>
                 </form>
-
-                <input type="submit" value="註冊" onclick="location.href='javaClass2.html'"
-                    style="width: 50px; height: 25px; background-color: orange;font-size: 10%;border:gold;color:black;">
-
+            
+                    <input type="submit" value="註冊" onclick="location.href='javaClass2.html'">
+                
             </th>
         </tr>
+        
 
     </table>
     

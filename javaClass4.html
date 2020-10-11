@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="javaClass4.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
          <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+         <script src="check.js"></script>
     </head>
     <body>
 
@@ -31,12 +32,15 @@
             <hr noshade="">
         
                 <center><form action="" method="GET">
-                    <h>輸入帳號：<input type="text" name="account"><br></h>
-                    <h>輸入密碼：<input type="password" name="password"><br></h>
-                    <h>輸入電子郵件：<input type="text" name="email" id="B"></h>
+                    <h>輸入帳號：<input type="text" name="account" id="1" value=""><br></h>
+                    <p id="acWarning" style="color: red;"></p>
+                    <h>輸入密碼：<input type="password" name="password" id="2"  value=""><br></h>
+                    <p id="pwWarning" style="color: red"></p>
+                    <h>輸入電子郵件：<input type="text" name="email" id="3" value=""></h>
+                    <p id="emWarning" style="color: red"></p>
                 </form></center>
             
-                    <input type="submit" value="註冊" onclick="location.href='javaClass2.html'">
+                    <input type="submit" value="註冊" onclick="check()">
                 
             </th>
         </tr>
